@@ -1,0 +1,91 @@
+body {
+  background: url('') no-repeat center center fixed;
+  background-size: cover;
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.6),
+      rgba(0, 0, 0, 0.8)
+    ),
+    url('https://media.istockphoto.com/id/1356364268/photo/close-up-focus-on-persons-hands-typing-on-the-desktop-computer-keyboard-screens-show-coding.jpg?b=1&s=170667a&w=0&k=20&c=DriezQW30CaJxGzEvW_l0Z5vpIrIYqUx7-K1ah2gTx0=');
+}
+
+header {
+  background-color: transparent;
+  color: #fff;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
+.logo {
+  display: flex;
+  color: white;
+  font-family: monospace;
+  align-items: center;
+}
+
+.logo a {
+  display: block;
+  margin-right: 6px;
+  padding: 0px;
+}
+
+.logo img {
+  filter: invert(100%);
+  height: 40px;
+}
+
+.search-box {
+  display: flex;
+  align-items: center;
+}
+
+.search-box input[type='text'] {
+  width: 100%;
+  padding: 5px;
+  margin-right: 10px;
+  border: 1px solid white;
+  border-radius: 5px;
+  font-size: 16px;
+  background-color: transparent;
+  color: white;
+}
+
+.search-box button {
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: white;
+  color: black;
+  cursor: pointer;
+}
+
+.search-box button i {
+  font-size: 20px;
+}
+.about {
+  color: white;
+  margin: 10%;
+  text-align: center;
+  opacity: 80%;
+}
+#detail {
+  margin-top: 20px;
+  color: white;
+  text-align: center;
+}
+#detail img {
+  width: 18%;
+}
+#detail h1 {
+  font-size: 40px;
+  letter-spacing: 4px;
+}
+#detail a {
+  color: skyblue;
+  text-decoration: none;
+}
